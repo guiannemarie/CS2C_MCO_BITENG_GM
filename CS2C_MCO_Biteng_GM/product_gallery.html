@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Resume</a></li>
+        <li><a href="product_feature.html">Product Feature</a></li>
+        <li><a href="product_gallery.html" class="active">Product Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero thin-hero">
+    <img src="img/ilocos sur.jpg" alt="Gallery Hero">
+  </section>
+
+  <main>
+    <section class="product-grid">
+      <div class="product">
+        <img src="img/vigan longganisa.jpg" alt="Item 1">
+        <h3>Vigan Longganisa</h3>
+        <p>Garlicky Ilocano sausage</p>
+        <p class="price">₱250.00</p>
+        <button onclick="addToCart('Item 1', 10)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/640_image004_2022_05_13_09_33_56.png" alt="Item 2">
+        <h3>Balkutsa</h3>
+        <p>Sweet, crunchy rice snack</p>
+        <p class="price">₱100.00</p>
+        <button onclick="addToCart('Item 2', 15)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/ube wine.jpg" alt="Item 3">
+        <h3>Ube Wine</h3>
+        <p>Purple yam wine with a mild sweetness</p>
+        <p class="price">₱200.00</p>
+        <button onclick="addToCart('Item 3', 20)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/peanut butter.jpg" alt="Item 4">
+        <h3>Peanut Butter</h3>
+        <p>Creamy local peanut spread</p>
+        <p class="price">₱170.00</p>
+        <button onclick="addToCart('Item 4', 12)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/chichapop.jpg" alt="Item 5">
+        <h3>Chichapop</h3>
+        <p>Crunchy corn snack</p>
+        <p class="price">₱50.00</p>
+        <button onclick="addToCart('Item 5', 18)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/ilocos-empanada.jpg" alt="Item 6">
+        <h3>Ilocos Empanada</h3>
+        <p>Fried pastry with egg and veggies</p>
+        <p class="price">₱120.00</p>
+        <button onclick="addToCart('Item 6', 22)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/tablea.jpg" alt="Item 7">
+        <h3>Tablea</h3>
+        <p>Modern design with excellent durability.</p>
+        <p class="price">₱160.00</p>
+        <button onclick="addToCart('Item 7', 25)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/BagnetBagoong-DAngeles640-8.jpg" alt="Item 8">
+        <h3>Bagnet</h3>
+        <p>Pure cacao for hot chocolate</p>
+        <p class="price">₱450.00</p>
+        <button onclick="addToCart('Item 8', 30)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/calamay.jpg" alt="Item 9">
+        <h3>Calamay</h3>
+        <p>Sweet sticky rice cake</p>
+        <p class="price">₱50.00</p>
+        <button onclick="addToCart('Item 9', 30)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/handwoven.jpg" alt="Item 10">
+        <h3>Handwoven</h3>
+        <p>Colorful traditional fabric</p>
+        <p class="price">₱650.00</p>
+        <button onclick="addToCart('Item 10', 30)">Add to Cart</button>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>&copy; 2025 Ilocos Sur Products . All rights reserved.</p>
+  </footer>
+</body>
+</html>
